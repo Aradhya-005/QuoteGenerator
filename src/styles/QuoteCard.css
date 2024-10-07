@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .quote-text {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    color: rgb(63, 15, 96);
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size:30px;
+  }
+
+
+  .button {
+    font-family: "Poppins", sans-serif;
+    margin: 30px 10px 10px 10px ;
+    background: linear-gradient(135deg, #1b2b4f, #2e6a75);
+    color: white;
+    transition: background 0.3 ease;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    cursor: pointer;
+  }
+ 
+  button:hover {
+  background: linear-gradient(135deg, #2e6a75, #4f8f9f);
+}
